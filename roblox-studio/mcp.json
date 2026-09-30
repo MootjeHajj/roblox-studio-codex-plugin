@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "Roblox_Studio": {
+      "args": [
+        "/d",
+        "/s",
+        "/c",
+        "cd /d \"%LOCALAPPDATA%\\Roblox\" && .\\mcp.bat"
+      ],
+      "type": "stdio",
+      "command": "cmd.exe"
+    }
+  }
+}

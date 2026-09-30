@@ -1,0 +1,22 @@
+{
+  "name": "roblox-studio",
+  "version": "0.1.0",
+  "description": "Local Windows integration with the existing Roblox Studio MCP server.",
+  "author": {
+    "name": "Moham"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "Roblox Studio",
+    "shortDescription": "Bouw en test Roblox-games",
+    "longDescription": "Verbind Codex met de lokale Roblox Studio MCP-server om scenes en Luau-scripts te bekijken, te wijzigen en te testen.",
+    "developerName": "Moham",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Help me mijn Roblox-game te bouwen. Bekijk eerst de verbonden Studio en de bestaande projectstructuur."
+  }
+}

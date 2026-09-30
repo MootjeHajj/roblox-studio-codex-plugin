@@ -1,0 +1,20 @@
+{
+  "name": "roblox-community",
+  "interface": {
+    "displayName": "Roblox Studio for Codex"
+  },
+  "plugins": [
+    {
+      "name": "roblox-studio",
+      "category": "Developer Tools",
+      "source": {
+        "path": "./roblox-studio",
+        "source": "local"
+      },
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      }
+    }
+  ]
+}

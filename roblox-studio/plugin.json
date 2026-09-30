@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "roblox-studio",
+  "version": "0.1.0",
+  "description": "Local Windows integration with the existing Roblox Studio MCP server.",
+  "author": {
+    "name": "Moham"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Roblox Studio",
+        "shortDescription": "Bouw en test Roblox-games",
+        "longDescription": "Verbind Codex met de lokale Roblox Studio MCP-server om scenes en Luau-scripts te bekijken, te wijzigen en te testen.",
+        "developerName": "Moham",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": "Help me mijn Roblox-game te bouwen. Bekijk eerst de verbonden Studio en de bestaande projectstructuur."
+      },
+      "publication": {
+        "release_notes": "Initial public source distribution of the Windows-local Roblox Studio workflow and MCP launcher. Roblox server binaries are not included."
+      }
+    }
+  }
+}
